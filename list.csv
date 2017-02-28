@@ -1,0 +1,13 @@
+INSERT INTO products(ProductName,DepartmentName,Price,StockQuantity)
+VALUES ("imac","Computer",899.99,150),
+	("Dress","Apparel",599.99,50),
+	("Monopoly","Board Games",39.99,200),
+	("Baggage","Bag",199.99,100),
+	("Jacket","Apparel",359.99,400),
+	("Jogger Pants","Apparel",49.99,2000),
+	("Sweater","Apparel",149.99,300),
+	("Cargo Shorts","Apparel",49.99,1500),
+	("Skinny Jean","Apparel",109.99,800),
+	("Wind Break Jacket","Apparel",249.99,700);		
+
+SELECT * FROM bamazon.products;
